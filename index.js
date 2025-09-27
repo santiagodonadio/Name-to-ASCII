@@ -1,6 +1,6 @@
 const input = document.getElementById("input")
 
-const out1 = document.getElementById("output1")
+const out1 = document.getElementById("output")
 
 const myMap = new Map();
 
@@ -37,9 +37,9 @@ function convert(value){
 
 function nameToASCII(){
 
-    let value = input.value
-    let change = convert(value)
+    let value = input.value;
+    let change = convert(value);
 
-
+    document.getElementById("output").innerText = change;
 }
 
