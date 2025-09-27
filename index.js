@@ -4,32 +4,6 @@ const out1 = document.getElementById("output")
 
 const myMap = new Map();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     myMap.set("!", 33)
     myMap.set('"', 34)
     myMap.set("#", 35)
